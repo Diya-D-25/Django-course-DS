@@ -22,5 +22,5 @@ urlpatterns = [
     path("", views.home_page, name="home"),
     path("admin/", admin.site.urls),
     path("count", views.counter, name="count"),
-    path("blogger/", include("Blog.urls")),
+    path("blog/", include("Blog.urls")),
 ]
