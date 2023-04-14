@@ -24,3 +24,5 @@ urlpatterns = [
     path("count", views.counter, name="count"),
     path("blog/", include("Blog.urls")),
 ]
+
+# 3nBKqvwE-tVXd-G
